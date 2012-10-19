@@ -6,3 +6,7 @@ en subir este documento, así cuando lo cloneis tendra algo que
 descargar el git.
 
 A ver que tal sale este experimento. XD
+
+
+Esto es una modificacion para probar si he sincronizado
+bien mi repositorio con el tuyo.
