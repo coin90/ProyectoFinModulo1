@@ -119,6 +119,11 @@ font-size: 0.8em;
 color: #787878;
 }
 
+.post ul li
+{
+		padding: 0em 1.0em 0em 20px;
+}
+
 .post ul.controls
 {
 clear: both;
