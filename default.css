@@ -203,10 +203,12 @@ margin: 0 auto;
 {
 position: relative;
 width: 100%;
-height: 9.0em;
+height: 10em;
 background: #2B2B2B url('images/topbg.gif') repeat-x;
 margin-bottom: 2px;
 }
+
+
 
 #headercontent
 {
@@ -232,6 +234,14 @@ color: #777;
 font-size: 1.0em;
 font-weight: normal;
 color: #aaa;
+}
+
+#logos 
+{
+position: absolute;
+bottom: 0em;
+padding: 0em 2.0em 0.2em 73.9em;
+height: 130;
 }
 
 #search
