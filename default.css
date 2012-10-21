@@ -42,6 +42,25 @@ a:hover
 text-decoration: none;
 }
 
+<!--Mis Cambios-->
+h3
+{
+	color: #690;
+}
+
+h1
+{
+    font-size: x-large;
+    color: #690; 
+    margin: 10px;
+}
+
+
+a { color: #660  }
+a:visited { color: #93F}
+
+<!--#5bbb94; #b4debb;-->
+<!--Fin Mis Cambios-->
 
 h3 span
 {
@@ -369,4 +388,468 @@ bottom: 1.2em;
 position: absolute;
 right: 2.0em;
 bottom: 1.2em;
+}
+<!----------------------------------------------------------------------------------------------------------------------------->
+
+
+html
+{
+    min-width: 1200px;
+    background: url(../images/background.jpg) no-repeat center center fixed;
+    font-family: "New Century Schoolbook", serif ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/background.jpg', sizingMethod='scale');
+    -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/background.jpg', sizingMethod='scale')";
+}
+
+p
+{
+    text-align: justify;
+}
+
+article p
+{
+    margin: 10px;
+    color: #000000; 
+}
+
+article b
+{
+    color: #E17635;
+}
+
+
+
+
+<!--#5bbb94;-->
+h2
+{
+    font-size: large;
+    color: #b4debb;
+    margin: 10px;
+}
+
+.headerLogos
+{
+    margin: 30px auto;
+    width: 70%;
+    height: 120px;
+}
+
+.logoRiatec
+{
+    float: left;
+    background: #252c31;
+/*    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+*/
+    padding: 10px;
+}
+
+.master
+{
+    float: right;
+    margin: auto;
+    font-size: 50px;
+    padding-top: 10px;
+    padding-right: 10px;
+    text-shadow: 3px 3px 7px #111;
+    letter-spacing: -1px;
+
+}
+
+#riatecTitleSilverlight
+{
+    float: right;
+    width: 400px;
+}
+
+.logoUMA
+{
+    float: right;
+    background: #ffffff;
+/*    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+*/
+    padding: 10px;
+    height: 100%;
+}
+
+nav
+{
+    list-style: none;
+}
+
+.main
+{
+    width: 70%;
+    background: rgba(0, 0, 0, 0.4);
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    margin: auto;
+    padding: 20px;
+    color: white;
+}
+
+.langMenu
+{
+    margin-right: 0.2%;
+}
+
+.langMenu a
+{
+    float: right;
+    margin: 5px;
+}
+
+.langMenu img
+{
+    height: 32px;
+}
+
+.mainMenu
+{
+    width: 70%;
+    margin: auto;
+}
+
+.mainMenu ul li
+{
+    float: left;
+    display: inline;
+    margin: 8px 5px auto auto;
+    padding: 10px 0 11px 0;
+}
+
+.mainMenu ul li a
+{
+    text-decoration: none;
+    font-weight: bold;
+    color: #b4debb;
+}
+
+.mainMenu ul li a:visited { color: #b4debb; }
+
+.mainMenu ul li a:hover
+{
+    background-color: rgba(255,255,255, 0.4);
+    -webkit-border-top-left-radius: 18px;
+    -webkit-border-top-right-radius: 18px;
+    -moz-border-radius-topleft: 18px;
+    -moz-border-radius-topright: 18px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    padding: 10px;
+}
+
+.active
+{
+    background-color: rgba(0, 0, 0, 0.4);
+    -webkit-border-top-left-radius: 18px;
+    -webkit-border-top-right-radius: 18px;
+    -moz-border-radius-topleft: 18px;
+    -moz-border-radius-topright: 18px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    padding: 10px;
+}
+
+.inactive
+{
+    background-color: rgba(0, 0, 0, 0.1);
+    -webkit-border-top-left-radius: 18px;
+    -webkit-border-top-right-radius: 18px;
+    -moz-border-radius-topleft: 18px;
+    -moz-border-radius-topright: 18px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    padding: 10px;
+}
+
+.mainContent
+{
+    width: 70%;
+}
+
+.block
+{
+    float: right;
+    width: 30%;
+    /*height :450px;*/
+    background-color: rgba(0,0,0, 0.1);
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    border-radius: 18px;
+    padding: 9px;
+}
+
+.whiteBGTrans
+{
+    background-color: rgba(255,255,255, 0.2);
+}
+
+.block-entry
+{
+    margin: 8px;
+    background-color: rgba(255,255,255, 0.1);
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    border-radius: 18px;
+    padding: 9px;
+}
+
+.block-entry h1
+{
+    font-style: italic;
+    font-size: large;
+}
+
+.block-entry img
+{
+    float: left;
+    margin: 5px;
+}
+
+div.block-entry
+{
+    min-height: 130px;
+}
+
+article.block-entry p
+{
+    padding: 0 0 0 10px;
+}
+
+div.block-entry p
+{
+    padding: 0 10px 10px 10px;
+    max-height: 100px;
+    overflow-y: auto;
+}
+
+.company-logo
+{
+    height: 10%;
+    float: none !important;
+    margin: 8px;
+    background-color: #ffffff;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    border-radius: 18px;
+    padding: 8px;
+}
+
+.black
+{
+    background-color: #000000;
+}
+
+.left-column
+{
+    float: left;
+    width: 48%;
+}
+
+.right-column
+{
+    float: right;
+    width: 48%;
+}
+
+.left-column33
+{
+    float: left;
+    width: 33%;
+}
+
+.right-column33
+{
+    float: right;
+    width: 33%;
+}
+
+.left-column60
+{
+    float: left;
+    width: 58%;
+   /* width: 58%;*/
+}
+
+.left-column90
+{
+    float: left;
+    width: 90%;
+   /* width: 58%;*/
+}
+
+.right-column40
+{
+    float: right;
+    width: 38%;
+}
+
+#empresasSilverlight
+{
+    width: 98%;
+    height: auto;
+    padding: 0 20px 0 0;
+}
+
+.cartel
+{
+    width: 70%;
+    margin-left: 10%;
+}
+
+.map
+{
+    width: 100%;
+}
+
+table
+{
+    width:100%;
+    font-size:80%;
+}
+
+iframe
+{
+    visibility:hidden;
+    height:0;
+    width:0;
+    border:0;
+}
+
+.align-right
+{
+    text-align: right;
+}
+
+footer
+{
+    margin: 30px;
+    line-height: 64px;
+}
+
+.footerMenu
+{
+    float: left;
+}
+
+.copyright
+{
+    float: right;
+}
+
+.html5Logo
+{
+    float: left;
+}
+
+.clr:before, .clr:after
+{
+    content: "\0020";
+    display: block; height: 0; visibility: hidden;
+}
+.clr:after { clear: both; }
+.clr { zoom: 1; }
+
+.clr-left
+{
+    clear: left;
+}
+
+.separator
+{
+    width: 95%;
+    border-bottom: 1px solid #b4debb;
+    margin: 30px 0 30px 0;
+}
+
+.separator2
+{
+    width: 55%;
+    border-bottom: 1px dashed #b4debb;
+    margin: 15px 0 15px 0;
+}
+
+.italic
+{
+    font-style: italic;
+}
+
+.white
+{
+    color: #ffffff;
+}
+
+.list
+{
+    margin: 0.5em 1em 0 2em;
+    list-style: circle;
+}
+
+.list li
+{
+    margin: 0.5em;
+}
+
+.list2
+{
+    margin-left: 15px ;
+}
+
+.moduleTable
+{
+    width: 90%;
+    margin: auto;
+    background-color: rgba(0,0,0, 0.2);
+    text-align: center;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    border-radius: 18px;
+    padding: 8px;
+}
+
+.moduleTable table
+{
+    font-size: larger;
+    line-height: 1.5em;
+}
+
+.moduleTable th
+{
+    color: #b4debb;
+}
+
+.moduleTable tr:nth-child(even)
+{
+    background-color: rgba(255,255,255, 0.1);
+}
+
+.left
+{
+    text-align: left;
+}
+
+.techLogos a img
+{
+    margin: 20px;
+    text-align: center;
+}
+
+.follow
+{
+    text-align: left;
+}
+
+.follow img
+{
+    margin: 0 10px 0 10px;
 }
